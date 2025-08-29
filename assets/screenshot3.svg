@@ -1,0 +1,61 @@
+<svg width="300" height="600" viewBox="0 0 300 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Phone Screen -->
+  <rect width="300" height="600" rx="30" fill="#000"/>
+  <rect x="10" y="10" width="280" height="580" rx="25" fill="white"/>
+  
+  <!-- Status Bar -->
+  <rect x="10" y="10" width="280" height="30" fill="#FF0000"/>
+  <text x="30" y="30" fill="white" font-family="Arial" font-size="12" font-weight="bold">MyGram</text>
+  <text x="260" y="30" fill="white" font-family="Arial" font-size="10" text-anchor="end">100%</text>
+  
+  <!-- Header -->
+  <rect x="10" y="40" width="280" height="50" fill="#FF0000"/>
+  <text x="150" y="70" fill="white" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">सेटिंग्स</text>
+  
+  <!-- Profile Section -->
+  <rect x="20" y="100" width="260" height="80" rx="10" fill="#f8f9fa"/>
+  <circle cx="70" cy="140" r="25" fill="#FF0000"/>
+  <text x="70" y="145" fill="white" font-family="Arial" font-size="12" text-anchor="middle">फोटो</text>
+  <text x="110" y="130" fill="#333" font-family="Arial" font-size="14" font-weight="bold">राम कुमार</text>
+  <text x="110" y="145" fill="#666" font-family="Arial" font-size="12">+91 98765 43210</text>
+  <text x="110" y="160" fill="#666" font-family="Arial" font-size="12">जगुआ खुर्द, जोया</text>
+  
+  <!-- Menu Items -->
+  <rect x="20" y="200" width="260" height="50" rx="5" fill="white" stroke="#eee"/>
+  <rect x="30" y="215" width="20" height="20" rx="3" fill="#2196F3"/>
+  <text x="60" y="230" fill="#333" font-family="Arial" font-size="13">प्रोफाइल संपादित करें</text>
+  <text x="260" y="230" fill="#ccc" font-family="Arial" font-size="16" text-anchor="end">></text>
+  
+  <rect x="20" y="260" width="260" height="50" rx="5" fill="white" stroke="#eee"/>
+  <rect x="30" y="275" width="20" height="20" rx="3" fill="#4CAF50"/>
+  <text x="60" y="290" fill="#333" font-family="Arial" font-size="13">उम्मीदवार पंजीकरण</text>
+  <text x="260" y="290" fill="#ccc" font-family="Arial" font-size="16" text-anchor="end">></text>
+  
+  <rect x="20" y="320" width="260" height="50" rx="5" fill="white" stroke="#eee"/>
+  <rect x="30" y="335" width="20" height="20" rx="3" fill="#FF9800"/>
+  <text x="60" y="350" fill="#333" font-family="Arial" font-size="13">सहायता और समर्थन</text>
+  <text x="260" y="350" fill="#ccc" font-family="Arial" font-size="16" text-anchor="end">></text>
+  
+  <rect x="20" y="380" width="260" height="50" rx="5" fill="white" stroke="#eee"/>
+  <rect x="30" y="395" width="20" height="20" rx="3" fill="#9C27B0"/>
+  <text x="60" y="410" fill="#333" font-family="Arial" font-size="13">प्राइवेसी पॉलिसी</text>
+  <text x="260" y="410" fill="#ccc" font-family="Arial" font-size="16" text-anchor="end">></text>
+  
+  <rect x="20" y="440" width="260" height="50" rx="5" fill="white" stroke="#eee"/>
+  <rect x="30" y="455" width="20" height="20" rx="3" fill="#607D8B"/>
+  <text x="60" y="470" fill="#333" font-family="Arial" font-size="13">हमारे बारे में</text>
+  <text x="260" y="470" fill="#ccc" font-family="Arial" font-size="16" text-anchor="end">></text>
+  
+  <!-- Logout Button -->
+  <rect x="20" y="510" width="260" height="40" rx="20" fill="#F44336"/>
+  <text x="150" y="535" fill="white" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">लॉगआउट</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="10" y="540" width="280" height="50" fill="white" stroke="#eee"/>
+  <circle cx="75" cy="565" r="12" fill="#ccc"/>
+  <circle cx="150" cy="565" r="12" fill="#ccc"/>
+  <circle cx="225" cy="565" r="12" fill="#FF0000"/>
+  <text x="75" y="570" fill="#666" font-family="Arial" font-size="8" text-anchor="middle">होम</text>
+  <text x="150" y="570" fill="#666" font-family="Arial" font-size="8" text-anchor="middle">वोट</text>
+  <text x="225" y="570" fill="white" font-family="Arial" font-size="8" text-anchor="middle">सेटिंग</text>
+</svg>

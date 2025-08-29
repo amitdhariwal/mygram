@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGram - डिजिटल गांव का भविष्य</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="assets/logo.png" alt="MyGram Logo" class="logo-img">
+                    <span class="logo-text">MyGram</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">होम</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">फीचर्स</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#download" class="nav-link">डाउनलोड</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">संपर्क</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">MyGram</h1>
+                <h2 class="hero-subtitle">डिजिटल गांव का भविष्य</h2>
+                <p class="hero-description">
+                    गांव की पंचायती राज व्यवस्था को डिजिटल बनाने वाला पहला एप्लिकेशन। 
+                    वोटिंग, उम्मीदवार पंजीकरण, गांव की जानकारी और बहुत कुछ।
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        अभी डाउनलोड करें
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        और जानें
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/phone-mockup.svg" alt="MyGram App" class="phone-mockup">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">मुख्य विशेषताएं</h2>
+                <p class="section-subtitle">MyGram आपके गांव को डिजिटल युग में ले जाता है</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-vote-yea"></i>
+                    </div>
+                    <h3 class="feature-title">डिजिटल वोटिंग</h3>
+                    <p class="feature-description">
+                        सुरक्षित और पारदर्शी तरीके से अपने उम्मीदवारों को वोट दें। 
+                        रियल-टाइम परिणाम देखें।
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3 class="feature-title">उम्मीदवार पंजीकरण</h3>
+                    <p class="feature-description">
+                        आसानी से अपना नामांकन करें। विभिन्न पदों के लिए आवेदन करें 
+                        और अपनी प्रोफाइल बनाएं।
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="feature-title">गांव की जानकारी</h3>
+                    <p class="feature-description">
+                        अपने गांव की सभी महत्वपूर्ण जानकारी एक ही जगह देखें। 
+                        स्वास्थ्य, शिक्षा, रोजगार की अपडेट।
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">ग्राम सभा मीटिंग</h3>
+                    <p class="feature-description">
+                        ग्राम सभा की मीटिंग्स की जानकारी, एजेंडा और 
+                        निर्णयों की अपडेट पाएं।
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="feature-title">किसान सेवा</h3>
+                    <p class="feature-description">
+                        खेती-बाड़ी की नई तकनीक, फसल की जानकारी और 
+                        कृषि संबंधी सलाह प्राप्त करें।
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="feature-title">AI चैट सहायक</h3>
+                    <p class="feature-description">
+                        अपने सवालों के जवाब पाने के लिए AI चैट बॉट का 
+                        उपयोग करें। 24/7 सहायता उपलब्ध।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">ऐप स्क्रीनशॉट्स</h2>
+                <p class="section-subtitle">MyGram के अंदर झांकें</p>
+            </div>
+            
+            <div class="screenshots-slider">
+                <div class="screenshot-item">
+                    <img src="assets/screenshot1.svg" alt="होम स्क्रीन" class="screenshot-img">
+                    <h4>होम स्क्रीन</h4>
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot2.svg" alt="वोटिंग स्क्रीन" class="screenshot-img">
+                    <h4>वोटिंग स्क्रीन</h4>
+                </div>
+                <div class="screenshot-item">
+                    <img src="assets/screenshot3.svg" alt="प्रोफाइल स्क्रीन" class="screenshot-img">
+                    <h4>प्रोफाइल स्क्रीन</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2 class="download-title">MyGram डाउनलोड करें</h2>
+                    <p class="download-description">
+                        अपने गांव को डिजिटल बनाने की शुरुआत आज ही करें। 
+                        MyGram डाउनलोड करें और पंचायती राज में भाग लें।
+                    </p>
+                    
+                    <div class="download-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <span class="stat-label">डाउनलोड्स</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">गांव</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4.8</span>
+                            <span class="stat-label">रेटिंग</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-buttons">
+                    <a href="assets/app-release.apk" class="download-btn apk-download" download>
+                        <div class="download-icon">
+                            <i class="fab fa-android"></i>
+                        </div>
+                        <div class="download-info">
+                            <span class="download-text-small">APK डाउनलोड करें</span>
+                            <span class="download-text-large">Android के लिए</span>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="download-btn playstore-btn">
+                        <div class="download-icon">
+                            <i class="fab fa-google-play"></i>
+                        </div>
+                        <div class="download-info">
+                            <span class="download-text-small">जल्द आ रहा है</span>
+                            <span class="download-text-large">Google Play Store</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">कैसे काम करता है</h2>
+                <p class="section-subtitle">MyGram का उपयोग करना बहुत आसान है</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>डाउनलोड करें</h3>
+                        <p>MyGram ऐप डाउनलोड करें और इंस्टॉल करें</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>रजिस्टर करें</h3>
+                        <p>अपना मोबाइल नंबर और गांव की जानकारी दर्ज करें</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>भाग लें</h3>
+                        <p>वोटिंग करें, उम्मीदवारी दर्ज करें और गांव की गतिविधियों में भाग लें</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">संपर्क करें</h2>
+                <p class="section-subtitle">हमसे जुड़ें और अपने सुझाव दें</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>ईमेल</h4>
+                            <p>dhariwal.amit99@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>फोन</h4>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>पता</h4>
+                            <p>उत्तर प्रदेश, भारत</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="आपका नाम" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="आपका ईमेल" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="आपका संदेश" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">संदेश भेजें</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="MyGram Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">MyGram</span>
+                    </div>
+                    <p class="footer-description">
+                        डिजिटल गांव का भविष्य। पंचायती राज व्यवस्था को 
+                        आधुनिक और पारदर्शी बनाना हमारा लक्ष्य है।
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">त्वरित लिंक</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">होम</a></li>
+                        <li><a href="#features">फीचर्स</a></li>
+                        <li><a href="#download">डाउनलोड</a></li>
+                        <li><a href="#contact">संपर्क</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">सहायता</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">प्राइवेसी पॉलिसी</a></li>
+                        <li><a href="#">नियम और शर्तें</a></li>
+                        <li><a href="#">रिफंड पॉलिसी</a></li>
+                        <li><a href="#">हमारे बारे में</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">सोशल मीडिया</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MyGram. सभी अधिकार सुरक्षित।</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
